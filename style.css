@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+#navbar {
+ position: fixed;
+ background-color: black;
+ height: 40px;
+ width: 100%;
+ color: white;
+
+}
+
+#navbar h1 {
+    margin: 0;
+}
+.welcome {
+    text-align: center;
+}
+
+.container{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    width: 30vw;
+    height: fit-content;
+    margin: auto;
+    background-color: rgba(111, 111, 111, 0.233);
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    margin: auto;
+}
+
+.errmsg {
+    text-align: center;
+}
+
+.input {
+    width: 20vw;
+    border: 1px solid black;
+    display: block;
+    margin: auto;
+    padding: 10px;
+}
+
+.label {
+    width: 20vw;
+text-align: center;
+    display: block;
+    margin: auto;
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+
+.btn {
+    margin:  15px auto;
+    font-size: 1.4rem;
+    width: fit-content;
+    display: block;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   background-color: rgb(51, 225, 51);
+    
+}
+
+.subTxt {
+    text-align: center;
+}
+
+
+.btn-logout {
+    height: 30px;
+    width: 100px;
+    background-color: red;
+    text-align: center;
+    margin: auto;
+    border-radius: 3px;
+    border: 2px solid white;
+   text-align: center;
+}
+
+.logout-btn {
+    margin:   auto;
+    font-size: 1.4rem;
+    width: fit-content;
+    display: block;
+   text-align: center;
+   text-decoration: none;
+   color: white;
+   
+}
+
+.regsuccess {
+    text-align: center;
+}
+
+.btn-logout:hover {
+    height: 30px;
+    width: 100px;
+    background-color: rgb(113, 0, 0);
+    text-align: center;
+    margin: auto;
+    border-radius: 3px;
+    border: 2px solid white;
+   text-align: center;
+}
