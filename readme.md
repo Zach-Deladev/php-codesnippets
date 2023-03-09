@@ -2,7 +2,7 @@
 
 ## Index.php
 
-![alt text](./media/php-login.png)
+![alt text](./media/wireframe-login.png)
 
 The index page has a simple look with a navbar prominently displayed at the top. Users can easily access the many sections of the website thanks to the navbar's links to other web sites. Users may easily access the information they're seeking.
 
@@ -30,7 +30,7 @@ Second, PDO provides a number of security measures that make it challenging for 
 
 ## Register.php
 
-![alt text](./media/php-register.png)
+![alt text](./media/wireframe-register.png)
 
 New users can register for the website on the registration page, which has a simple, streamlined design that is simple to use. With simple instructions and prompts to lead users through the registration process, the website is designed to be user-friendly.
 
@@ -56,7 +56,7 @@ Lastly, PDO has tools for handling errors that make it simple to deal with datab
 
 ## Dashboard.php
 
-![alt text](./media/php-dashboard.png)
+![alt text](./media/wireframe-dashboard.png)
 
 The dashboard page is a personalized homepage that is accessible only after a user logs in to the website. It is designed to provide users with an overview of their account information and to allow them to access all of the features and benefits of the website from a single location.
 
