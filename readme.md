@@ -1,5 +1,11 @@
 # README
 
+Welcome to my PHP backend form validation code snippet assignment! In this assignment, I have created a code snippet that demonstrates how to validate user input using PHP on the server-side.
+
+Form validation is an essential part of web development as it ensures that the data entered by users is accurate, complete, and safe. It helps to prevent errors, security vulnerabilities, and potential data loss.
+
+In this code snippet, I have demonstrated how to validate different types of input fields such as text, email, password, and number fields. I have also included some commonly used validation techniques such as checking for required fields, valid email format, minimum and maximum character length, and numeric values.
+
 ## Index.php
 
 ![alt text](./media/wireframe-login.png)
