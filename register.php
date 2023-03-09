@@ -94,13 +94,16 @@ if (isset($_REQUEST["reg_btn"])) {
 
 <body>
 
-    <nav id="navbar">
-
-        <div class="brand">
-            <h1>Hello</h1>
-        </div>
-
-    </nav>
+    <header>
+        <h1>Logo</h1>
+        <nav id="navbar-dash">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
     <div class="container">
 
         <form action="register.php" method="post">

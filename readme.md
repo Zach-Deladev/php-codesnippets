@@ -3,7 +3,16 @@
 ## Index.php
 
 ![alt text](./media/php-login.png)
-A web application's login page is implemented using this PHP script. The `connection.php` file, which holds the database connection information, is the first thing the script needs. Afterwards a fresh session is initiated.
+
+The index page has a simple look with a navbar prominently displayed at the top. Users can easily access the many sections of the website thanks to the navbar's links to other web sites. Users may easily access the information they're seeking.
+
+The index page has a login section with a link to register or sign up for the website in addition to the navbar. This enables users to register for an account and access any services that are only accessible to members. The login page is made to be simple to use and intuitive, with prompts and instructions that are easy to follow.
+
+Generally, the index page isstraightforward and user-friendly entry point to thewebsite, with simple navigation, directions that are easy to follow, and a straightforward registration process for visitors who want to sign up.
+
+Code:
+
+The web application's login page is implemented using this PHP script. The `connection.php` file, which holds the database connection information, is the first thing the script needs. Afterwards a fresh session is initiated.
 
 By examining whether the `user` session variable is set, the script determines if the user is already logged in. The script leads the user to the `dashboard.php` page if they are already logged in.
 
@@ -22,7 +31,18 @@ Second, PDO provides a number of security measures that make it challenging for 
 ## Register.php
 
 ![alt text](./media/php-register.png)
-The offered code is a PHP script that registers a user and adds their information into a database table named 'users'. Also, the script verifies user input and, if necessary, shows error messages. Using this code has the following advantages:
+
+New users can register for the website on the registration page, which has a simple, streamlined design that is simple to use. With simple instructions and prompts to lead users through the registration process, the website is designed to be user-friendly.
+
+The registration form itself is simple to use and contains fields where users can fill in details about themselves, like their name, email address, and password. The registration procedure may be completed quickly and easily thanks to the clear instructions and prompts that walk the user through each stage.
+
+Overall, new users may easily register and begin using thewebsite right away thanks to the registration page's straightforward, user-friendly, and effective design. Existing users can easily access their accounts by simply clicking the link to log in, which is clearly displayed.
+
+Code:
+
+The code is a PHP script that registers a user and adds their information into a database table named 'users'. Also, the script verifies user input and, if necessary, shows error messages.
+
+Using this code has the following advantages:
 
 - Improved Security: The code connects to the database using the PDO package, which helps thwart SQL injection attacks. The password is additionally hashed using PHP's password hash function, which further strengthens the security of user data.
 - Error handling: The script verifies user input and, if necessary, shows error messages. This makes the registration process more user-friendly by ensuring that the user inputs the right information into the form.
@@ -38,7 +58,11 @@ Lastly, PDO has tools for handling errors that make it simple to deal with datab
 
 ![alt text](./media/php-dashboard.png)
 
+The dashboard page is a personalized homepage that is accessible only after a user logs in to the website. It is designed to provide users with an overview of their account information and to allow them to access all of the features and benefits of the website from a single location.
+
+At the top of the page, the user's username is prominently displayed in the navbar, providing a personalized touch and a sense of ownership over their account. In addition, there is a logout button located in the navbar, allowing the user to quickly and easilylog out of the website when they are finished using it.
+
 Dashboard.php
 This code establishes a connection to a database and starts a session. It checks whether the user is logged in and redirects them to the "index.php" page if not. The HTML document displays a greeting and the user's name, along with a logout button that takes the user to a logout.php page.
 
-Overall, these PHP scripts provide a secure and efficient way to manage user accounts and store user data in databases. They use standardized coding techniques and error handling to ensure long-term reliability and ease of maintenance.
+Overall, this PHP script provides a secure and efficient way to manage user accounts and store user data in databases. They use standardized coding techniques and error handling to ensure long-term reliability and ease of maintenance.

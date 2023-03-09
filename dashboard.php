@@ -22,15 +22,26 @@ if (!isset($_SESSION['user'])) {
 
 <body>
 
-    <body>
-        <div class="container">
-            <?php
-            echo "<h1 class='welcome'> Welcome User: " . $_SESSION["user"]["name"] . " </h1>";
-            ?>
+    <header>
+        <?php
+        echo "<h1 class='dash-welcome'> User: " . $_SESSION["user"]["name"] . " </h1>";
+        ?>
+        <nav id="navbar-dash">
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
 
-            <div class="btn-logout"><a class="logout-btn" href="logout.php">Logout</a></div>
-        </div>
-    </body>
+        <div class="btn-logout"><a class="logout-btn" href="logout.php">Logout</a></div>
+    </header>
+
+
+    <div class="container-dash">
+
+    </div>
+
 </body>
 
 </html>
