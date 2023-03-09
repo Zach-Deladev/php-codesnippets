@@ -56,6 +56,14 @@ Using this code has the following advantages:
 - User Session Management: The script starts a session for the current user using the `session_start()` function. Also, if the user is already logged in, it validates that fact and takes them to the `dashboard.php` page. This enhances the overall user experience while managing user sessions.
 - Standardized Coding: The code accesses the database using PHP's PDO package, which offers a standardized method of working with databases in PHP. By doing this, the code is made to be more dependable in the long run and easier to maintain.
 
+Once the user has successfully registered their details through the registration form, their information will be securely stored in a MySQL database that has been specifically designed and created for this purpose. This means that users will be able to return to the website and log in with their username and password in the future.
+
+By storing user information in a MySQL database, we can ensure that their data is safe, secure, and easily retrievable. This allows users to easily access their account information and make any necessary updates or changes.
+
+The storage of user information in a MySQL database is a critical component of the registration process. It ensures that user data is secure and easily accessible, providing a foundation for a robust and scalable web application.
+
+![alt text](./media/mysql-database.png)
+
 Overall, this code offers a quick and secure way to create user accounts and store user data in databases. Any online application may rely on it because it uses error handling, session management, and standardized development techniques.
 
 Lastly, PDO has tools for handling errors that make it simple to deal with database exceptions and errors. When a mistake happens, PDO has the ability to throw exceptions, which
